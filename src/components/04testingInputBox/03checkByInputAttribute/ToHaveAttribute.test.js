@@ -15,7 +15,7 @@ test("Check input id attribute", () => {
   expect(checkInput).toHaveAttribute("id", "userId");
 });
 
-//checking input value attribute
+//Checking input value attribute
 /*
 Though test cases are passed but it will always through an error for thr value as 
 it is a static value rather then onChange. Or if you want to render the input as 
