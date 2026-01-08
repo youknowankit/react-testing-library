@@ -6,4 +6,5 @@ test("testing image element", () => {
 
   const title = screen.getByTitle("eye image");
   expect(title).toBeInTheDocument();
+  //we can also use  mutliple expect if we need to find text as well as image using title
 });
