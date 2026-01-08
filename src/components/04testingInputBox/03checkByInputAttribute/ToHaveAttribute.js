@@ -6,6 +6,8 @@ function ToHaveAttribute() {
         placeholder="Enter User name"
         name="username"
         id="userId"
+        value="Ankit"
+        readOnly
       />
       <br />
     </div>
