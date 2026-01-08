@@ -4,6 +4,8 @@
 
 //SYNTAX
 describe("input group", () => {});
+
+Describe can also be nested, means we can also make groups inside the groups
 */
 
 import { render, screen } from "@testing-library/react";
